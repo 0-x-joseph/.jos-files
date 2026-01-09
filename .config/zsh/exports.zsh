@@ -4,18 +4,16 @@ export BROWSER="brave"
 export PATH="$HOME/.local/bin":$PATH
 export MANPAGER='nvim +Man!'
 export MANWIDTH=999
-export PATH=$HOME/.cargo/bin:$PATH
-export PATH=$HOME/.local/share/go/bin:$PATH
-export GOPATH=/usr/local/go/bin/go
-export PATH=$HOME/.config/composer/vendor/bin:$PATH
-export PATH=$HOME/flutter/bin:$PATH
 export PATH=$HOME/sqlite3:$PATH
-export PATH=$HOME/.nvm/versions/node/v20.5.0/bin:$PATH
 export PATH=$HOME/nvim/bin:$PATH
 export PATH="$HOME/.local/bin":$PATH
-export NVM_DIR="$HOME/.nvm"
-export ANDROID_HOME="$HOME/Android/Sdk"
-export PATH=$PATH:$HOME/Android/Sdk/platform-tools
-
-eval "`pip completion --zsh`"
-
+export PATH="/run/user/1000/fnm_multishells/38216_1767292053184/bin":$PATH
+export FNM_MULTISHELL_PATH="/run/user/1000/fnm_multishells/38216_1767292053184"
+export FNM_VERSION_FILE_STRATEGY="local"
+export FNM_DIR="/home/joseph/.local/share/fnm"
+export FNM_LOGLEVEL="info"
+export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
+export FNM_COREPACK_ENABLED="false"
+export FNM_RESOLVE_ENGINES="true"
+export FNM_ARCH="x64"
+export GTK_THEME=Adwaita:dark

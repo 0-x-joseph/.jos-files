@@ -1,8 +1,0 @@
-[user]
-	email = youssefbouryal02@gmail.com
-	name = Youssef Bouryal
-
-[core]
-	editor = nvim
-[color]
-	ui = true

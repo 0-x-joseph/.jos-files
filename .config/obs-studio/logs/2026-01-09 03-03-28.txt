@@ -1,0 +1,321 @@
+03:03:28.078: Platform: Wayland
+03:03:28.078: CPU Name: AMD Ryzen 7 PRO 5850U with Radeon Graphics
+03:03:28.078: CPU Speed: 1855.126MHz
+03:03:28.079: Physical Cores: 8, Logical Cores: 16
+03:03:28.079: Physical Memory: 15291MB Total, 2534MB Free
+03:03:28.079: Kernel Version: Linux 6.18.3-arch1-1
+03:03:28.079: Distribution: "Arch Linux" Unknown
+03:03:28.079: Desktop Environment: Hyprland
+03:03:28.079: Session Type: wayland
+03:03:28.081: Current Date/Time: 2026-01-09, 03:03:28 AM
+03:03:28.081: Browser Hardware Acceleration: true
+03:03:28.081: Qt Version: 6.10.1 (runtime), 6.10.1 (compiled)
+03:03:28.081: Portable mode: false
+03:03:28.192: OBS 32.0.2 (linux)
+03:03:28.192: ---------------------------------
+03:03:28.193: ---------------------------------
+03:03:28.193: audio settings reset:
+03:03:28.193: 	samples per sec: 48000
+03:03:28.193: 	speakers:        2
+03:03:28.193: 	max buffering:   960 milliseconds
+03:03:28.193: 	buffering type:  dynamically increasing
+03:03:28.196: ---------------------------------
+03:03:28.196: Initializing OpenGL...
+03:03:28.196: Using EGL/Wayland
+03:03:28.274: Initialized EGL 1.5
+03:03:28.302: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.18.3-arch1-1)
+03:03:28.302: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.3.3-arch1.1, shading language 4.60
+03:03:28.357: ---------------------------------
+03:03:28.357: video settings reset:
+03:03:28.357: 	base resolution:   1920x1080
+03:03:28.357: 	output resolution: 1280x720
+03:03:28.357: 	downscale filter:  Bicubic
+03:03:28.357: 	fps:               30/1
+03:03:28.357: 	format:            NV12
+03:03:28.357: 	YUV mode:          Rec. 709/Partial
+03:03:28.358: NV12 texture support enabled
+03:03:28.358: P010 texture support not available
+03:03:28.362: Audio monitoring device:
+03:03:28.362: 	name: Default
+03:03:28.362: 	id: default
+03:03:28.364: ---------------------------------
+03:03:28.366: Failed to load 'en-US' text for module: 'decklink-captions.so'
+03:03:28.368: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+03:03:28.369: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+03:03:28.369: Failed to initialize module 'decklink.so'
+03:03:28.569: [pipewire] Available capture sources:
+03:03:28.570: [pipewire]     - Monitor source
+03:03:28.570: [pipewire]     - Window source
+03:03:28.582: v4l2loopback not installed, virtual camera not registered
+03:03:28.611: VAAPI: API version 1.22
+03:03:28.612: FFmpeg VAAPI H264 encoding supported
+03:03:28.619: FFmpeg VAAPI AV1 encoding not supported
+03:03:28.627: FFmpeg VAAPI HEVC encoding supported
+03:03:28.633: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+03:03:28.633: 
+03:03:28.633: NVENC not supported
+03:03:28.633: Failed to initialize module 'obs-nvenc.so'
+03:03:28.678: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+03:03:28.678: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.1 | Qt version (run-time): 6.10.1
+03:03:28.678: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+03:03:28.687: [obs-websocket] [obs_module_load] Module loaded.
+03:03:28.692: ---------------------------------
+03:03:28.692:   Loaded Modules:
+03:03:28.692:     text-freetype2.so
+03:03:28.692:     rtmp-services.so
+03:03:28.692:     obs-x264.so
+03:03:28.692:     obs-websocket.so
+03:03:28.692:     obs-webrtc.so
+03:03:28.692:     obs-vst.so
+03:03:28.692:     obs-transitions.so
+03:03:28.692:     obs-qsv11.so
+03:03:28.692:     obs-outputs.so
+03:03:28.692:     obs-libfdk.so
+03:03:28.692:     obs-filters.so
+03:03:28.692:     obs-ffmpeg.so
+03:03:28.692:     linux-v4l2.so
+03:03:28.692:     linux-pulseaudio.so
+03:03:28.692:     linux-pipewire.so
+03:03:28.692:     linux-jack.so
+03:03:28.692:     linux-capture.so
+03:03:28.692:     linux-alsa.so
+03:03:28.692:     image-source.so
+03:03:28.692:     frontend-tools.so
+03:03:28.692:     decklink-output-ui.so
+03:03:28.692:     decklink-captions.so
+03:03:28.692: ---------------------------------
+03:03:28.693: ---------------------------------
+03:03:28.693: Available Encoders:
+03:03:28.693:   Video Encoders:
+03:03:28.693: 	- ffmpeg_svt_av1 (SVT-AV1)
+03:03:28.693: 	- ffmpeg_aom_av1 (AOM AV1)
+03:03:28.693: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+03:03:28.693: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+03:03:28.693: 	- obs_x264 (x264)
+03:03:28.693:   Audio Encoders:
+03:03:28.693: 	- ffmpeg_aac (FFmpeg AAC)
+03:03:28.693: 	- ffmpeg_opus (FFmpeg Opus)
+03:03:28.693: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+03:03:28.693: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+03:03:28.693: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+03:03:28.693: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+03:03:28.693: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+03:03:28.693: 	- libfdk_aac (libfdk AAC)
+03:03:28.693: ==== Startup complete ===============================================
+03:03:28.750: All scene data cleared
+03:03:28.750: ------------------------------------------------
+03:03:28.756: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+03:03:28.756: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+03:03:28.757: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor' (default)
+03:03:28.757: [Loaded global audio device]: 'Desktop Audio'
+03:03:28.757: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+03:03:28.757: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+03:03:28.757: pulse-input: Started recording from 'alsa_input.pci-0000_05_00.6.analog-stereo' (default)
+03:03:28.758: [Loaded global audio device]: 'Mic/Aux'
+03:03:28.758: PipeWire initialized
+03:03:28.758: v4l2-input: Start capture from /dev/video0
+03:03:28.770: Device for 'Audio Output Capture' source is also used for audio monitoring:
+03:03:28.770: Deduplication logic is being applied to all monitored sources.
+03:03:28.770: 
+03:03:28.902: v4l2-input: Input: 0
+03:03:28.949: v4l2-input: Resolution: 1280x720
+03:03:28.949: v4l2-input: Pixelformat: BGR3
+03:03:28.949: v4l2-input: Linesize: 3840 Bytes
+03:03:28.949: v4l2-input: Framerate: 30.00 fps
+03:03:28.950: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+03:03:28.952: Switched to scene 'Scene'
+03:03:28.952: ------------------------------------------------
+03:03:28.952: Loaded scenes:
+03:03:28.952: - scene 'Scene':
+03:03:28.952:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+03:03:28.952:     - source: 'camera' (v4l2_input)
+03:03:28.953: ------------------------------------------------
+03:03:29.014: [pipewire] Screencast session created
+03:03:29.125: v4l2-input: /dev/video0: select timed out
+03:03:29.125: v4l2-input: /dev/video0: failed to log status
+03:03:29.367: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+03:03:29.367: 
+03:03:31.256: [pipewire] Asking for monitor and window
+03:03:31.259: [pipewire] source selected, setting up screencast
+03:03:31.270: [pipewire] Server version: 1.4.9
+03:03:31.270: [pipewire] Library version: 1.4.9
+03:03:31.270: [pipewire] Header version: 1.4.9
+03:03:31.270: [pipewire] Created stream 0x5643657659d0
+03:03:31.270: [pipewire] Stream 0x5643657659d0 state: "connecting" (error: none)
+03:03:31.271: [pipewire] Playing stream 0x5643657659d0
+03:03:31.271: [pipewire] Stream 0x5643657659d0 state: "paused" (error: none)
+03:03:31.283: [pipewire] Negotiated format:
+03:03:31.283: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.283: [pipewire]     Modifier: 0x0
+03:03:31.283: [pipewire]     Size: 1920x1080
+03:03:31.283: [pipewire]     Framerate: 0/1
+03:03:31.284: [pipewire] Negotiated format:
+03:03:31.284: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.284: [pipewire]     Modifier: 0x20000044051ba01
+03:03:31.284: [pipewire]     Size: 1920x1080
+03:03:31.284: [pipewire]     Framerate: 0/1
+03:03:31.294: [pipewire] Stream 0x5643657659d0 state: "streaming" (error: none)
+03:03:31.303: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+03:03:31.303: [pipewire] Renegotiating stream
+03:03:31.303: [pipewire] Stream 0x5643657659d0 state: "paused" (error: none)
+03:03:31.304: [pipewire] Negotiated format:
+03:03:31.304: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.304: [pipewire]     Modifier: 0x20000044051ba01
+03:03:31.304: [pipewire]     Size: 1920x1080
+03:03:31.304: [pipewire]     Framerate: 0/1
+03:03:31.304: [pipewire] Negotiated format:
+03:03:31.305: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.305: [pipewire]     Modifier: 0x20000044051b901
+03:03:31.305: [pipewire]     Size: 1920x1080
+03:03:31.305: [pipewire]     Framerate: 0/1
+03:03:31.306: [pipewire] Stream 0x5643657659d0 state: "streaming" (error: none)
+03:03:31.320: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+03:03:31.320: [pipewire] Renegotiating stream
+03:03:31.320: [pipewire] Stream 0x5643657659d0 state: "paused" (error: none)
+03:03:31.320: [pipewire] Negotiated format:
+03:03:31.320: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.320: [pipewire]     Modifier: 0x20000044051b901
+03:03:31.320: [pipewire]     Size: 1920x1080
+03:03:31.320: [pipewire]     Framerate: 0/1
+03:03:31.322: [pipewire] Negotiated format:
+03:03:31.322: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.322: [pipewire]     Modifier: 0x200000440517901
+03:03:31.322: [pipewire]     Size: 1920x1080
+03:03:31.322: [pipewire]     Framerate: 0/1
+03:03:31.323: [pipewire] Stream 0x5643657659d0 state: "streaming" (error: none)
+03:03:31.336: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+03:03:31.336: [pipewire] Renegotiating stream
+03:03:31.336: [pipewire] Stream 0x5643657659d0 state: "paused" (error: none)
+03:03:31.337: [pipewire] Negotiated format:
+03:03:31.337: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.337: [pipewire]     Modifier: 0x200000440517901
+03:03:31.337: [pipewire]     Size: 1920x1080
+03:03:31.337: [pipewire]     Framerate: 0/1
+03:03:31.337: [pipewire] Negotiated format:
+03:03:31.337: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.337: [pipewire]     Modifier: 0x20000044051b601
+03:03:31.337: [pipewire]     Size: 1920x1080
+03:03:31.337: [pipewire]     Framerate: 0/1
+03:03:31.339: [pipewire] Stream 0x5643657659d0 state: "streaming" (error: none)
+03:03:31.353: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+03:03:31.353: [pipewire] Renegotiating stream
+03:03:31.353: [pipewire] Stream 0x5643657659d0 state: "paused" (error: none)
+03:03:31.353: [pipewire] Negotiated format:
+03:03:31.353: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.353: [pipewire]     Modifier: 0x20000044051b601
+03:03:31.353: [pipewire]     Size: 1920x1080
+03:03:31.353: [pipewire]     Framerate: 0/1
+03:03:31.355: [pipewire] Negotiated format:
+03:03:31.355: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+03:03:31.355: [pipewire]     Modifier: 0x200000000401a01
+03:03:31.355: [pipewire]     Size: 1920x1080
+03:03:31.355: [pipewire]     Framerate: 0/1
+03:03:31.356: [pipewire] Stream 0x5643657659d0 state: "streaming" (error: none)
+03:03:43.861: ---------------------------------
+03:03:43.861: [x264 encoder: 'simple_video_stream'] preset: veryfast
+03:03:43.861: [x264 encoder: 'simple_video_stream'] settings:
+03:03:43.861: 	rate_control: CBR
+03:03:43.861: 	bitrate:      6000
+03:03:43.861: 	buffer size:  6000
+03:03:43.861: 	crf:          23
+03:03:43.861: 	fps_num:      30
+03:03:43.861: 	fps_den:      1
+03:03:43.861: 	width:        1280
+03:03:43.861: 	height:       720
+03:03:43.861: 	keyint:       250
+03:03:43.861: 
+03:03:43.869: libfdk_aac encoder created
+03:03:43.870: libfdk_aac bitrate: 160, channels: 2
+03:03:43.871: ==== Recording Start ===============================================
+03:03:43.871: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/joseph/2026-01-09 03-03-43.mp4'...
+03:03:52.149: [rtmp-services plugin] Successfully updated file 'services.json' (version 281)
+03:03:52.149: [rtmp-services plugin] Successfully updated package (version 281)
+03:03:58.698: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+03:03:58.699: [mp4 muxer: 'simple_file_output'] Number of fragments: 2
+03:03:58.699: [mp4 muxer: 'simple_file_output'] Full moov size: 8 KiB
+03:03:58.699: [mp4 muxer: 'simple_file_output'] Final mdat size: 10111 KiB
+03:03:58.699: Output 'simple_file_output': stopping
+03:03:58.699: Output 'simple_file_output': Total frames output: 408
+03:03:58.699: Output 'simple_file_output': Total drawn frames: 445
+03:03:58.699: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+03:03:58.700: ==== Recording Stop ================================================
+03:03:58.701: [mp4 output: 'simple_file_output'] File output complete. Finalization took 3 ms.
+03:03:58.717: libfdk_aac encoder destroyed
+03:24:51.137: ---------------------------------
+03:24:51.137: [x264 encoder: 'simple_video_stream'] preset: veryfast
+03:24:51.137: [x264 encoder: 'simple_video_stream'] settings:
+03:24:51.137: 	rate_control: CBR
+03:24:51.137: 	bitrate:      6000
+03:24:51.137: 	buffer size:  6000
+03:24:51.137: 	crf:          23
+03:24:51.137: 	fps_num:      30
+03:24:51.137: 	fps_den:      1
+03:24:51.137: 	width:        1280
+03:24:51.137: 	height:       720
+03:24:51.137: 	keyint:       250
+03:24:51.137: 
+03:24:51.152: libfdk_aac encoder created
+03:24:51.152: libfdk_aac bitrate: 160, channels: 2
+03:24:51.155: ==== Recording Start ===============================================
+03:24:51.155: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/joseph/2026-01-09 03-24-51.mp4'...
+03:25:48.764: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+03:25:48.766: [mp4 muxer: 'simple_file_output'] Number of fragments: 10
+03:25:48.766: [mp4 muxer: 'simple_file_output'] Full moov size: 31 KiB
+03:25:48.766: [mp4 muxer: 'simple_file_output'] Final mdat size: 42323 KiB
+03:25:48.766: Output 'simple_file_output': stopping
+03:25:48.766: Output 'simple_file_output': Total frames output: 1692
+03:25:48.766: Output 'simple_file_output': Total drawn frames: 1729
+03:25:48.767: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+03:25:48.767: [mp4 output: 'simple_file_output'] File output complete. Finalization took 2 ms.
+03:25:48.768: ==== Recording Stop ================================================
+03:25:48.792: libfdk_aac encoder destroyed
+03:27:10.285: ---------------------------------
+03:27:10.285: [x264 encoder: 'simple_video_stream'] preset: veryfast
+03:27:10.285: [x264 encoder: 'simple_video_stream'] settings:
+03:27:10.285: 	rate_control: CBR
+03:27:10.285: 	bitrate:      6000
+03:27:10.285: 	buffer size:  6000
+03:27:10.285: 	crf:          23
+03:27:10.285: 	fps_num:      30
+03:27:10.285: 	fps_den:      1
+03:27:10.285: 	width:        1280
+03:27:10.285: 	height:       720
+03:27:10.285: 	keyint:       250
+03:27:10.285: 
+03:27:10.293: libfdk_aac encoder created
+03:27:10.293: libfdk_aac bitrate: 160, channels: 2
+03:27:10.296: ==== Recording Start ===============================================
+03:27:10.296: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/joseph/2026-01-09 03-27-10.mp4'...
+03:27:22.064: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+03:27:22.066: [mp4 muxer: 'simple_file_output'] Number of fragments: 3
+03:27:22.066: [mp4 muxer: 'simple_file_output'] Full moov size: 7 KiB
+03:27:22.066: [mp4 muxer: 'simple_file_output'] Final mdat size: 7840 KiB
+03:27:22.066: Output 'simple_file_output': stopping
+03:27:22.066: Output 'simple_file_output': Total frames output: 317
+03:27:22.066: Output 'simple_file_output': Total drawn frames: 353
+03:27:22.066: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+03:27:22.067: [mp4 output: 'simple_file_output'] File output complete. Finalization took 2 ms.
+03:27:22.068: ==== Recording Stop ================================================
+03:27:22.088: libfdk_aac encoder destroyed
+03:28:05.296: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:28:05.297: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:29:39.280: Settings changed (outputs)
+03:29:39.280: ------------------------------------------------
+03:29:47.202: ---------------------------------
+03:29:47.202: [x264 encoder: 'simple_video_recording'] preset: veryfast
+03:29:47.202: [x264 encoder: 'simple_video_recording'] profile: high
+03:29:47.202: [x264 encoder: 'simple_video_recording'] settings:
+03:29:47.202: 	rate_control: CRF
+03:29:47.202: 	bitrate:      0
+03:29:47.202: 	buffer size:  0
+03:29:47.202: 	crf:          14
+03:29:47.202: 	fps_num:      30
+03:29:47.202: 	fps_den:      1
+03:29:47.202: 	width:        1280
+03:29:47.202: 	height:       720
+03:29:47.202: 	keyint:       250
+03:29:47.202: 
+03:29:47.208: libfdk_aac encoder created
+03:29:47.208: libfdk_aac bitrate: 192, channels: 2
+03:29:47.212: ==== Recording Start ===============================================
+03:29:47.212: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/joseph/Videos/2026-01-09 03-29-47.mp4'...
